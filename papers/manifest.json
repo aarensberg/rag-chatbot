@@ -1,0 +1,336 @@
+[
+	{
+		"filename": "1950-Computing_Machinery_and_Intelligence.pdf",
+		"year": 1950,
+		"title": "Computing Machinery and Intelligence",
+		"authors": [
+			"Alan M. Turing"
+		],
+		"category": "foundations",
+		"tags": [
+			"history",
+			"foundations",
+			"philosophy",
+			"ai"
+		],
+		"summary": "Foundational paper asking whether machines can think and introducing the imitation game."
+	},
+	{
+		"filename": "1958-The_Perceptron.pdf",
+		"year": 1958,
+		"title": "The Perceptron",
+		"authors": [
+			"Frank Rosenblatt"
+		],
+		"category": "foundations",
+		"tags": [
+			"neural-networks",
+			"perceptron",
+			"classification",
+			"foundations"
+		],
+		"summary": "Foundational paper on perceptrons and early trainable neural models."
+	},
+	{
+		"filename": "1986-Learning_representations_by_back‑propagating_errors.pdf",
+		"year": 1986,
+		"title": "Learning representations by back-propagating errors",
+		"authors": [
+			"David E. Rumelhart",
+			"Geoffrey E. Hinton",
+			"Ronald J. Williams"
+		],
+		"category": "deep-learning",
+		"tags": [
+			"backpropagation",
+			"deep-learning",
+			"neural-networks",
+			"optimization"
+		],
+		"summary": "Seminal paper that made multilayer neural network training practical."
+	},
+	{
+		"filename": "1997-Long_Short-Term_Memory.pdf",
+		"year": 1997,
+		"title": "Long Short-Term Memory",
+		"authors": [
+			"Sepp Hochreiter",
+			"Jürgen Schmidhuber"
+		],
+		"category": "sequence-models",
+		"tags": [
+			"lstm",
+			"rnn",
+			"memory",
+			"sequence-modeling"
+		],
+		"summary": "Introduces LSTM to address long-range dependency learning in sequential data."
+	},
+	{
+		"filename": "2013-Efficient_Estimation_of_Word_Representations_in_Vector_Space.pdf",
+		"year": 2013,
+		"title": "Efficient Estimation of Word Representations in Vector Space",
+		"authors": [
+			"Tomas Mikolov",
+			"Kai Chen",
+			"Greg Corrado",
+			"Jeffrey Dean"
+		],
+		"category": "embeddings",
+		"tags": [
+			"word2vec",
+			"embeddings",
+			"nlp",
+			"representation-learning"
+		],
+		"summary": "Introduces efficient methods for learning distributed word vectors."
+	},
+	{
+		"filename": "2014-Neural_Machine_Translation_by_Jointly_Learning_to_Align_and_Translate.pdf",
+		"year": 2014,
+		"title": "Neural Machine Translation by Jointly Learning to Align and Translate",
+		"authors": [
+			"Dzmitry Bahdanau",
+			"Kyunghyun Cho",
+			"Yoshua Bengio"
+		],
+		"category": "attention",
+		"tags": [
+			"attention",
+			"machine-translation",
+			"alignment",
+			"seq2seq"
+		],
+		"summary": "Introduces the attention mechanism in neural machine translation."
+	},
+	{
+		"filename": "2014-Sequence_to_Sequence_Learning_with_Neural_Networks.pdf",
+		"year": 2014,
+		"title": "Sequence to Sequence Learning with Neural Networks",
+		"authors": [
+			"Ilya Sutskever",
+			"Oriol Vinyals",
+			"Quoc V. Le"
+		],
+		"category": "sequence-models",
+		"tags": [
+			"seq2seq",
+			"encoder-decoder",
+			"lstm",
+			"machine-translation"
+		],
+		"summary": "Introduces the sequence-to-sequence encoder-decoder paradigm."
+	},
+	{
+		"filename": "2017-Attention_Is_All_You_Need.pdf",
+		"year": 2017,
+		"title": "Attention Is All You Need",
+		"authors": [
+			"Ashish Vaswani",
+			"Noam Shazeer",
+			"Niki Parmar",
+			"Jakob Uszkoreit",
+			"Llion Jones",
+			"Aidan N. Gomez",
+			"Łukasz Kaiser",
+			"Illia Polosukhin"
+		],
+		"category": "transformers",
+		"tags": [
+			"transformer",
+			"self-attention",
+			"nlp",
+			"foundation-models"
+		],
+		"summary": "Introduces the Transformer architecture that underpins modern LLMs."
+	},
+	{
+		"filename": "2018-BERT_Pre-training_of_Deep_Bidirectional_Transformers_for_Language_Understanding.pdf",
+		"year": 2018,
+		"title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+		"authors": [
+			"Jacob Devlin",
+			"Ming-Wei Chang",
+			"Kenton Lee",
+			"Kristina Toutanova"
+		],
+		"category": "transformers",
+		"tags": [
+			"bert",
+			"pretraining",
+			"bidirectional",
+			"nlp"
+		],
+		"summary": "Shows the power of bidirectional Transformer pretraining for language understanding."
+	},
+	{
+		"filename": "2020_Retrieval‑Augmented_Generation_for_Knowledge‑Intensive_NLP_Tasks.pdf",
+		"year": 2020,
+		"title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+		"authors": [
+			"Patrick Lewis",
+			"Ethan Perez",
+			"Aleksandara Piktus",
+			"Fabio Petroni",
+			"Vladimir Karpukhin",
+			"Naman Goyal",
+			"Heinrich Küttler",
+			"Mike Lewis",
+			"Wen-tau Yih",
+			"Tim Rocktäschel",
+			"Sebastian Riedel",
+			"Douwe Kiela"
+		],
+		"category": "rag",
+		"tags": [
+			"rag",
+			"retrieval",
+			"generation",
+			"knowledge-intensive-nlp"
+		],
+		"summary": "Core RAG paper combining parametric generation with external retrieval."
+	},
+	{
+		"filename": "2020-Language_Models_are_Few-Shot_Learners.pdf",
+		"year": 2020,
+		"title": "Language Models are Few-Shot Learners",
+		"authors": [
+			"Tom B. Brown",
+			"Benjamin Mann",
+			"Nick Ryder",
+			"Melanie Subbiah",
+			"Jared D. Kaplan",
+			"Prafulla Dhariwal",
+			"Arvind Neelakantan",
+			"Pranav Shyam",
+			"Girish Sastry",
+			"Amanda Askell",
+			"Sandhini Agarwal",
+			"Ariel Herbert-Voss",
+			"Gretchen Krueger",
+			"Tom Henighan",
+			"Rewon Child",
+			"Aditya Ramesh",
+			"Daniel M. Ziegler",
+			"Jeffrey Wu",
+			"Clemens Winter",
+			"Christopher Hesse",
+			"Mark Chen",
+			"Eric Sigler",
+			"Mateusz Litwin",
+			"Scott Gray",
+			"Benjamin Chess",
+			"Jack Clark",
+			"Christopher Berner",
+			"Sam McCandlish",
+			"Alec Radford",
+			"Ilya Sutskever",
+			"Dario Amodei"
+		],
+		"category": "llms",
+		"tags": [
+			"gpt-3",
+			"few-shot",
+			"scaling",
+			"language-models"
+		],
+		"summary": "Demonstrates that large-scale language models can perform tasks in few-shot settings."
+	},
+	{
+		"filename": "2022-Chain‑of‑Thought_Prompting_Elicits_Reasoning_in_Large_Language_Models.pdf",
+		"year": 2022,
+		"title": "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models",
+		"authors": [
+			"Jason Wei",
+			"Xuezhi Wang",
+			"Dale Schuurmans",
+			"Maarten Bosma",
+			"Brian Ichter",
+			"Fei Xia",
+			"Ed H. Chi",
+			"Quoc V. Le",
+			"Denny Zhou"
+		],
+		"category": "reasoning",
+		"tags": [
+			"chain-of-thought",
+			"reasoning",
+			"prompting",
+			"llms"
+		],
+		"summary": "Shows that intermediate reasoning steps improve LLM problem-solving."
+	},
+	{
+		"filename": "2022-ReAct_Synergizing_Reasoning_and_Acting_in_Language_Models.pdf",
+		"year": 2022,
+		"title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+		"authors": [
+			"Shunyu Yao",
+			"Jeffrey Zhao",
+			"Dian Yu",
+			"Nan Du",
+			"Izhak Shafran",
+			"Karthik Narasimhan",
+			"Yuan Cao"
+		],
+		"category": "agents",
+		"tags": [
+			"react",
+			"agents",
+			"tool-use",
+			"reasoning"
+		],
+		"summary": "Key paper linking reasoning traces and tool-based action in language models."
+	},
+	{
+		"filename": "2022-Training_language_models_to_follow_instructions_with_human_feedback.pdf",
+		"year": 2022,
+		"title": "Training language models to follow instructions with human feedback",
+		"authors": [
+			"Long Ouyang",
+			"Jeffrey Wu",
+			"Xu Jiang",
+			"Diogo Almeida",
+			"Carroll Wainwright",
+			"Pamela Mishkin",
+			"Chong Zhang",
+			"Sandhini Agarwal",
+			"Katarina Slama",
+			"Alex Ray",
+			"John Schulman",
+			"Jacob Hilton",
+			"Fraser Kelton",
+			"Luke Miller",
+			"Maddie Simens",
+			"Amanda Askell",
+			"Peter Welinder",
+			"Paul Christiano",
+			"Jan Leike",
+			"Ryan Lowe"
+		],
+		"category": "alignment",
+		"tags": [
+			"rlhf",
+			"instructgpt",
+			"alignment",
+			"instruction-following"
+		],
+		"summary": "Introduces the InstructGPT RLHF pipeline for instruction-following behavior."
+	},
+	{
+		"filename": "2023-GPT‑4_Technical_Report.pdf",
+		"year": 2023,
+		"title": "GPT-4 Technical Report",
+		"authors": [
+			"OpenAI"
+		],
+		"category": "llms",
+		"tags": [
+			"gpt-4",
+			"multimodal",
+			"llms",
+			"technical-report"
+		],
+		"summary": "Technical report describing GPT-4 as a large multimodal model."
+	}
+]
