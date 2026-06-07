@@ -1,3 +1,17 @@
-.DS_Store
+# Python
 __pycache__/
+*.py[cod]
 .venv/
+
+# OS
+.DS_Store
+
+# Secrets / environment
+.env
+
+# RAG artifacts — excluded from the submission (see README)
+chroma_db/
+papers/*.pdf
+
+# Local caches
+.cache/

@@ -1,0 +1,21 @@
+# Tested with Python 3.12 on macOS (CPU).
+#   python -m venv .venv && source .venv/bin/activate
+#   pip install -r requirements.txt
+
+streamlit==1.58.0
+langchain-huggingface==1.2.2
+langchain-chroma==1.1.0
+langchain-community==0.4.2
+langchain-text-splitters==1.1.2
+pypdf==6.13.0
+sentence-transformers==5.5.1
+groq==1.4.0
+python-dotenv==1.2.2
+
+# --- Transitive pins (fix a chromadb import crash) ---
+# protobuf 7.x gets paired with a stale opentelemetry-proto whose generated
+# code raises "Descriptors cannot be created directly" when chromadb imports it.
+# Holding protobuf < 7 and forcing the modern OTLP packages avoids it.
+protobuf==6.33.6
+opentelemetry-proto==1.42.1
+opentelemetry-exporter-otlp-proto-grpc==1.42.1
