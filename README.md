@@ -81,3 +81,21 @@ can be trained to translate even very long sentences where plain RNNs fail.
   is read from the environment, never hardcoded.
 - **Files:** `build_index.py` (one-off indexing) · `app.py` (the chatbot, ~120 lines) ·
   `requirements.txt` · `papers/manifest.json` (per-paper metadata used as chunk metadata + UI filter).
+
+## Console logs (both harmless)
+
+Two messages appear in the terminal under `streamlit run`. **Neither is a problem** — the app is fully functional.
+
+- **`ModuleNotFoundError: No module named 'torchvision'` (~93 tracebacks).** These come from
+  Streamlit's auto-reload **file watcher**, not from the RAG pipeline. On each rerun the watcher walks
+  every imported module to know which files to watch; reading `__path__` on `transformers`' lazy
+  `image_processing_*` submodules forces them to import, and each one's first line is
+  `from torchvision.transforms.v2 import functional`. This is a **text-only** project, so we install
+  `torch` but not `torchvision`, and those ~93 optional *image* modules fail to import. The errors are
+  caught and execution continues: our models — `all-MiniLM-L6-v2` (embeddings) and the MiniLM
+  cross-encoder — never use torchvision, which is why the errors disappear when the models are loaded
+  directly or through Streamlit's headless `AppTest`. *(To silence them you can disable hot-reload with a
+  `.streamlit/config.toml` containing `[server]` then `fileWatcherType = "none"`.)*
+- **"For better performance, install the Watchdog module".** Purely optional: Watchdog makes Streamlit's
+  file-watching faster; without it Streamlit simply polls. It is not required to run the app, so it is
+  intentionally left uninstalled.
